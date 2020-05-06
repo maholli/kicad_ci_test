@@ -61,7 +61,7 @@ outputs:
       - layer: Edge.Cuts
         suffix: Edge_Cuts
 
-  - name: excellon_drill
+  - name: 'excellon_drill'
     comment: "Excellon drill files"
     type: excellon
     dir: Gerbers
@@ -71,7 +71,5 @@ outputs:
       use_aux_axis_as_origin: false
       minimal_header: false
       mirror_y_axis: false
-      report:
-        filename: 'drill_report.rpt'
       map:
         type: 'ps'
