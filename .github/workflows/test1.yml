@@ -83,7 +83,7 @@ jobs:
 
     - name: Run PCB stuff
       run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all excellon_drill gerbers
+        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all gerbers excellon_drill
 
     - name: Recuperar resultados
       uses: actions/upload-artifact@v1
