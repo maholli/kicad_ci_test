@@ -1,0 +1,1115 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11693 8548
+encoding utf-8
+Sheet 3 6
+Title "PyCubed Mainboard"
+Date "2020-05-04"
+Rev "v04c"
+Comp "Max Holliday"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 1650 3750
+Connection ~ 1650 4150
+Connection ~ 2000 1700
+Connection ~ 2300 1200
+Connection ~ 2300 1500
+Connection ~ 2300 2100
+Connection ~ 2350 3650
+Connection ~ 2350 4150
+Connection ~ 2650 3650
+Connection ~ 2650 3850
+Connection ~ 3650 3650
+Connection ~ 3650 3850
+Connection ~ 3650 4050
+Connection ~ 4900 1200
+Connection ~ 6000 1300
+Connection ~ 6000 1700
+Connection ~ 6000 2250
+Connection ~ 6000 2650
+Connection ~ 6700 1200
+Connection ~ 6700 1700
+Connection ~ 6700 2150
+Connection ~ 6700 2650
+Connection ~ 7000 1200
+Connection ~ 7000 1400
+Connection ~ 7000 2150
+Connection ~ 7000 2350
+Connection ~ 8000 1200
+Connection ~ 8000 1400
+Connection ~ 8000 1600
+Connection ~ 8000 2150
+Connection ~ 8000 2350
+Connection ~ 8000 2550
+Wire Wire Line
+	1650 3750 1550 3750
+Wire Wire Line
+	1650 4150 1650 4250
+Wire Wire Line
+	1800 1700 2000 1700
+Wire Wire Line
+	1950 4150 1650 4150
+Wire Wire Line
+	2000 1700 2100 1700
+Wire Wire Line
+	2000 2100 2300 2100
+Wire Wire Line
+	2050 3950 2050 3750
+Wire Wire Line
+	2300 1200 2000 1200
+Wire Wire Line
+	2300 1500 2500 1500
+Wire Wire Line
+	2300 2100 2300 1900
+Wire Wire Line
+	2300 2200 2300 2100
+Wire Wire Line
+	2350 3650 1400 3650
+Wire Wire Line
+	2350 4050 2350 4150
+Wire Wire Line
+	2350 4250 2350 4150
+Wire Wire Line
+	2500 1200 2300 1200
+Wire Wire Line
+	2650 3650 2350 3650
+Wire Wire Line
+	2650 3850 2650 3650
+Wire Wire Line
+	2650 4050 2650 3850
+Wire Wire Line
+	2650 4250 2350 4250
+Wire Wire Line
+	3650 3650 3650 3850
+Wire Wire Line
+	3650 3650 4150 3650
+Wire Wire Line
+	3650 4050 3650 3850
+Wire Wire Line
+	3650 4250 3650 4050
+Wire Wire Line
+	4100 1200 4900 1200
+Wire Wire Line
+	4100 1300 4200 1300
+Wire Wire Line
+	4750 3550 4900 3550
+Wire Wire Line
+	4900 1200 4900 2150
+Wire Wire Line
+	5200 3700 4750 3700
+Wire Wire Line
+	6000 1300 5900 1300
+Wire Wire Line
+	6000 1700 6300 1700
+Wire Wire Line
+	6000 2250 5900 2250
+Wire Wire Line
+	6000 2650 6000 2750
+Wire Wire Line
+	6000 5050 6050 5050
+Wire Wire Line
+	6000 6150 6050 6150
+Wire Wire Line
+	6050 4900 5900 4900
+Wire Wire Line
+	6050 6000 5900 6000
+Wire Wire Line
+	6300 2650 6000 2650
+Wire Wire Line
+	6400 1500 6400 1300
+Wire Wire Line
+	6400 2450 6400 2250
+Wire Wire Line
+	6700 1200 4900 1200
+Wire Wire Line
+	6700 1200 7000 1200
+Wire Wire Line
+	6700 1600 6700 1700
+Wire Wire Line
+	6700 1800 6700 1700
+Wire Wire Line
+	6700 2150 4900 2150
+Wire Wire Line
+	6700 2550 6700 2650
+Wire Wire Line
+	6700 2750 6700 2650
+Wire Wire Line
+	6700 4800 6650 4800
+Wire Wire Line
+	6700 4950 6650 4950
+Wire Wire Line
+	6700 5900 6650 5900
+Wire Wire Line
+	6700 6050 6650 6050
+Wire Wire Line
+	7000 1400 7000 1200
+Wire Wire Line
+	7000 1600 7000 1400
+Wire Wire Line
+	7000 1800 6700 1800
+Wire Wire Line
+	7000 2150 6700 2150
+Wire Wire Line
+	7000 2350 7000 2150
+Wire Wire Line
+	7000 2550 7000 2350
+Wire Wire Line
+	7000 2750 6700 2750
+Wire Wire Line
+	7100 5100 6650 5100
+Wire Wire Line
+	7100 6200 6650 6200
+Wire Wire Line
+	8000 1200 8000 1400
+Wire Wire Line
+	8000 1200 8300 1200
+Wire Wire Line
+	8000 1400 8000 1600
+Wire Wire Line
+	8000 1600 8000 1800
+Wire Wire Line
+	8000 2150 8000 2350
+Wire Wire Line
+	8000 2150 8300 2150
+Wire Wire Line
+	8000 2550 8000 2350
+Wire Wire Line
+	8000 2750 8000 2550
+Wire Wire Line
+	8200 4850 8550 4850
+Wire Wire Line
+	8200 5900 8550 5900
+Wire Wire Line
+	8650 1500 8700 1500
+Wire Wire Line
+	8650 2450 8700 2450
+Wire Wire Line
+	8700 1350 8650 1350
+Wire Wire Line
+	8700 2300 8650 2300
+Wire Wire Line
+	8950 4850 9250 4850
+Wire Wire Line
+	8950 5900 9250 5900
+Wire Wire Line
+	9200 5150 9250 5150
+Wire Wire Line
+	9200 6200 9250 6200
+Wire Wire Line
+	9250 5000 9100 5000
+Wire Wire Line
+	9250 6050 9100 6050
+Wire Wire Line
+	9350 1250 9300 1250
+Wire Wire Line
+	9350 1400 9300 1400
+Wire Wire Line
+	9350 2200 9300 2200
+Wire Wire Line
+	9350 2350 9300 2350
+Wire Wire Line
+	9750 1550 9300 1550
+Wire Wire Line
+	9750 2500 9300 2500
+Wire Wire Line
+	9900 4900 9850 4900
+Wire Wire Line
+	9900 5050 9850 5050
+Wire Wire Line
+	9900 5950 9850 5950
+Wire Wire Line
+	9900 6100 9850 6100
+Wire Wire Line
+	10300 5200 9850 5200
+Wire Wire Line
+	10300 6250 9850 6250
+Text Notes 2700 1900 0    85   ~ 0
+Power Relay A
+Text Notes 4500 800  0    85   ~ 0
+Burn Wire Control (Antenna Depolyment)
+Text Notes 5100 5050 0    85   ~ 0
+-X
+Text Notes 5100 6050 0    85   ~ 0
++X
+Text Notes 6300 4200 0    85   ~ 0
+X
+Text Notes 7150 4000 0    85   ~ 0
+Solar Panel Connectors
+Text Notes 8450 850  0    85   ~ 0
+Antenna Board\nConnectors
+Text Notes 8600 7250 0    200  ~ 40
+Burn Wires
+Text Notes 9500 4350 0    85   ~ 0
+Y
+Text Notes 10000 1450 0    85   ~ 0
++Z
+Text Notes 10000 2400 0    85   ~ 0
+-Z
+Text Notes 10650 5150 0    85   ~ 0
+-Y
+Text Notes 10650 6150 0    85   ~ 0
++Y
+Text Label 3750 3650 0    50   ~ 0
+VBATT_SW1
+Text Label 4900 1200 2    50   ~ 0
+VBURN_A_IN
+Text Label 8000 1200 0    50   ~ 0
+VBURN1
+Text Label 8000 2150 0    50   ~ 0
+VBURN2
+Text Label 8200 4850 0    50   ~ 0
+VBURN1
+Text Label 8200 5900 0    50   ~ 0
+VBURN2
+Text GLabel 1400 3650 0    50   BiDi ~ 0
+VBATT
+Text GLabel 1550 3750 0    50   BiDi ~ 0
+ENAB_EX
+Text GLabel 1800 1700 0    50   BiDi ~ 0
+BURN_RELAY_A
+Text GLabel 1950 4150 0    10   BiDi ~ 0
+GND
+Text GLabel 2000 1200 0    50   BiDi ~ 0
+VBATT
+Text GLabel 2300 2200 0    10   BiDi ~ 0
+GND
+Text GLabel 4150 3200 0    50   BiDi ~ 0
+RF2_MOSI
+Text GLabel 4150 3350 0    50   BiDi ~ 0
+RF2_SCK
+Text GLabel 4200 1300 2    50   BiDi ~ 0
+VBATT
+Text GLabel 4750 3250 2    50   BiDi ~ 0
+RF2_MISO
+Text GLabel 4750 3400 2    59   BiDi ~ 0
+AIN5
+Text GLabel 4750 3550 2    10   BiDi ~ 0
+GND
+Text GLabel 5200 3700 2    59   BiDi ~ 0
+CS_EX
+Text GLabel 5900 1300 0    50   BiDi ~ 0
+ENAB_BURN1
+Text GLabel 5900 2250 0    50   BiDi ~ 0
+ENAB_BURN2
+Text GLabel 6000 1700 0    10   BiDi ~ 0
+GND
+Text GLabel 6000 5050 0    50   BiDi ~ 0
+SCL1
+Text GLabel 6000 6150 0    50   BiDi ~ 0
+SCL2
+Text GLabel 6050 4900 0    10   BiDi ~ 0
+GND
+Text GLabel 6050 5200 0    50   BiDi ~ 0
+VBATT
+Text GLabel 6050 6000 0    10   BiDi ~ 0
+GND
+Text GLabel 6050 6300 0    50   BiDi ~ 0
+VBATT
+Text GLabel 6300 2650 0    10   BiDi ~ 0
+GND
+Text GLabel 6700 4800 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 6700 4950 2    50   BiDi ~ 0
+SDA1
+Text GLabel 6700 5900 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 6700 6050 2    50   BiDi ~ 0
+SDA2
+Text GLabel 6800 5100 2    10   BiDi ~ 0
+GND
+Text GLabel 6800 6200 2    10   BiDi ~ 0
+GND
+Text GLabel 8650 1500 0    50   BiDi ~ 0
+SCL1
+Text GLabel 8650 2450 0    50   BiDi ~ 0
+SCL2
+Text GLabel 8700 1350 0    10   BiDi ~ 0
+GND
+Text GLabel 8700 1650 0    50   BiDi ~ 0
+VBATT
+Text GLabel 8700 2300 0    10   BiDi ~ 0
+GND
+Text GLabel 8700 2600 0    50   BiDi ~ 0
+VBATT
+Text GLabel 9200 5150 0    50   BiDi ~ 0
+SCL1
+Text GLabel 9200 6200 0    50   BiDi ~ 0
+SCL2
+Text GLabel 9250 5000 0    10   BiDi ~ 0
+GND
+Text GLabel 9250 5300 0    50   BiDi ~ 0
+VBATT
+Text GLabel 9250 6050 0    10   BiDi ~ 0
+GND
+Text GLabel 9250 6350 0    50   BiDi ~ 0
+VBATT
+Text GLabel 9350 1250 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 9350 1400 2    50   BiDi ~ 0
+SDA1
+Text GLabel 9350 2200 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 9350 2350 2    50   BiDi ~ 0
+SDA2
+Text GLabel 9450 1550 2    10   BiDi ~ 0
+GND
+Text GLabel 9450 2500 2    10   BiDi ~ 0
+GND
+Text GLabel 9900 4900 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 9900 5050 2    50   BiDi ~ 0
+SDA1
+Text GLabel 9900 5950 2    50   BiDi ~ 0
+VSOLAR
+Text GLabel 9900 6100 2    50   BiDi ~ 0
+SDA2
+Text GLabel 10000 5200 2    10   BiDi ~ 0
+GND
+Text GLabel 10000 6250 2    10   BiDi ~ 0
+GND
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5E304A6C
+P 5200 3300
+AR Path="/5E304A6C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5E304A6C" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5E304A6C" Ref="#SUPPLY0109"  Part="1" 
+F 0 "#SUPPLY0109" H 5200 3300 50  0001 C CNN
+F 1 "3.3V" H 5100 3450 59  0000 L BNN
+F 2 "" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DFCD0D9
+P 6650 5250
+AR Path="/5DFCD0D9" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DFCD0D9" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DFCD0D9" Ref="#SUPPLY0123"  Part="1" 
+F 0 "#SUPPLY0123" H 6650 5250 50  0001 C CNN
+F 1 "3.3V" V 6700 5350 59  0000 L BNN
+F 2 "" H 6650 5250 50  0001 C CNN
+F 3 "" H 6650 5250 50  0001 C CNN
+	1    6650 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DFCEAE0
+P 6650 6350
+AR Path="/5DFCEAE0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DFCEAE0" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DFCEAE0" Ref="#SUPPLY0124"  Part="1" 
+F 0 "#SUPPLY0124" H 6650 6350 50  0001 C CNN
+F 1 "3.3V" V 6700 6450 59  0000 L BNN
+F 2 "" H 6650 6350 50  0001 C CNN
+F 3 "" H 6650 6350 50  0001 C CNN
+	1    6650 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DF51F80
+P 9300 1700
+AR Path="/5DF51F80" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DF51F80" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DF51F80" Ref="#SUPPLY0121"  Part="1" 
+F 0 "#SUPPLY0121" H 9300 1700 50  0001 C CNN
+F 1 "3.3V" V 9350 1800 59  0000 L BNN
+F 2 "" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0001 C CNN
+	1    9300 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DFB3FFF
+P 9300 2650
+AR Path="/5DFB3FFF" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DFB3FFF" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DFB3FFF" Ref="#SUPPLY0119"  Part="1" 
+F 0 "#SUPPLY0119" H 9300 2650 50  0001 C CNN
+F 1 "3.3V" V 9350 2750 59  0000 L BNN
+F 2 "" H 9300 2650 50  0001 C CNN
+F 3 "" H 9300 2650 50  0001 C CNN
+	1    9300 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DFB7566
+P 9850 5350
+AR Path="/5DFB7566" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DFB7566" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DFB7566" Ref="#SUPPLY0120"  Part="1" 
+F 0 "#SUPPLY0120" H 9850 5350 50  0001 C CNN
+F 1 "3.3V" V 9900 5450 59  0000 L BNN
+F 2 "" H 9850 5350 50  0001 C CNN
+F 3 "" H 9850 5350 50  0001 C CNN
+	1    9850 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:3.3V #SUPPLY?
+U 1 1 5DFB9155
+P 9850 6400
+AR Path="/5DFB9155" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC5DDE/5DFB9155" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5CEC6476/5DFB9155" Ref="#SUPPLY0122"  Part="1" 
+F 0 "#SUPPLY0122" H 9850 6400 50  0001 C CNN
+F 1 "3.3V" V 9900 6500 59  0000 L BNN
+F 2 "" H 9850 6400 50  0001 C CNN
+F 3 "" H 9850 6400 50  0001 C CNN
+	1    9850 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5E304A1E
+P 1650 4350
+AR Path="/5E304A1E" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5E304A1E" Ref="#GND0128"  Part="1" 
+F 0 "#GND0128" H 1650 4350 50  0001 C CNN
+F 1 "GND" H 1550 4250 59  0000 L BNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 FF2A2D77
+P 2300 2300
+AR Path="/FF2A2D77" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/FF2A2D77" Ref="#GND049"  Part="1" 
+F 0 "#GND049" H 2300 2300 50  0001 C CNN
+F 1 "GND" H 2200 2200 59  0000 L BNN
+F 2 "" H 2300 2300 50  0001 C CNN
+F 3 "" H 2300 2300 50  0001 C CNN
+	1    2300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 D027D65F
+P 4100 1600
+AR Path="/D027D65F" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/D027D65F" Ref="#GND052"  Part="1" 
+F 0 "#GND052" H 4100 1600 50  0001 C CNN
+F 1 "GND" H 4000 1500 59  0000 L BNN
+F 2 "" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5E304A5E
+P 5000 3550
+AR Path="/5E304A5E" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5E304A5E" Ref="#GND0129"  Part="1" 
+F 0 "#GND0129" H 5000 3550 50  0001 C CNN
+F 1 "GND" V 5200 3588 59  0000 C CNN
+F 2 "" H 5000 3550 50  0001 C CNN
+F 3 "" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFD0305
+P 5800 4900
+AR Path="/5DFD0305" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFD0305" Ref="#GND0125"  Part="1" 
+F 0 "#GND0125" H 5800 4900 50  0001 C CNN
+F 1 "GND" V 5850 4700 59  0000 L BNN
+F 2 "" H 5800 4900 50  0001 C CNN
+F 3 "" H 5800 4900 50  0001 C CNN
+	1    5800 4900
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFD1A83
+P 5800 6000
+AR Path="/5DFD1A83" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFD1A83" Ref="#GND0126"  Part="1" 
+F 0 "#GND0126" H 5800 6000 50  0001 C CNN
+F 1 "GND" V 5850 5800 59  0000 L BNN
+F 2 "" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0001 C CNN
+	1    5800 6000
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 F8638A93
+P 6000 1800
+AR Path="/F8638A93" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/F8638A93" Ref="#GND055"  Part="1" 
+F 0 "#GND055" H 6000 1800 50  0001 C CNN
+F 1 "GND" H 5900 1700 59  0000 L BNN
+F 2 "" H 6000 1800 50  0001 C CNN
+F 3 "" H 6000 1800 50  0001 C CNN
+	1    6000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 3890F70B
+P 6000 2850
+AR Path="/3890F70B" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/3890F70B" Ref="#GND056"  Part="1" 
+F 0 "#GND056" H 6000 2850 50  0001 C CNN
+F 1 "GND" H 5900 2750 59  0000 L BNN
+F 2 "" H 6000 2850 50  0001 C CNN
+F 3 "" H 6000 2850 50  0001 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFCD0D3
+P 7100 5200
+AR Path="/5DFCD0D3" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFCD0D3" Ref="#GND0123"  Part="1" 
+F 0 "#GND0123" H 7100 5200 50  0001 C CNN
+F 1 "GND" H 7000 5100 59  0000 L BNN
+F 2 "" H 7100 5200 50  0001 C CNN
+F 3 "" H 7100 5200 50  0001 C CNN
+	1    7100 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFCEADA
+P 7100 6300
+AR Path="/5DFCEADA" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFCEADA" Ref="#GND0124"  Part="1" 
+F 0 "#GND0124" H 7100 6300 50  0001 C CNN
+F 1 "GND" H 7000 6200 59  0000 L BNN
+F 2 "" H 7100 6300 50  0001 C CNN
+F 3 "" H 7100 6300 50  0001 C CNN
+	1    7100 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFA424B
+P 8550 1350
+AR Path="/5DFA424B" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFA424B" Ref="#GND0115"  Part="1" 
+F 0 "#GND0115" H 8550 1350 50  0001 C CNN
+F 1 "GND" V 8600 1150 59  0000 L BNN
+F 2 "" H 8550 1350 50  0001 C CNN
+F 3 "" H 8550 1350 50  0001 C CNN
+	1    8550 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFB234A
+P 8550 2300
+AR Path="/5DFB234A" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFB234A" Ref="#GND0116"  Part="1" 
+F 0 "#GND0116" H 8550 2300 50  0001 C CNN
+F 1 "GND" V 8600 2100 59  0000 L BNN
+F 2 "" H 8550 2300 50  0001 C CNN
+F 3 "" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFBFEEE
+P 9000 5000
+AR Path="/5DFBFEEE" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFBFEEE" Ref="#GND0121"  Part="1" 
+F 0 "#GND0121" H 9000 5000 50  0001 C CNN
+F 1 "GND" V 9050 4800 59  0000 L BNN
+F 2 "" H 9000 5000 50  0001 C CNN
+F 3 "" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFC1757
+P 9000 6050
+AR Path="/5DFC1757" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFC1757" Ref="#GND0122"  Part="1" 
+F 0 "#GND0122" H 9000 6050 50  0001 C CNN
+F 1 "GND" V 9050 5850 59  0000 L BNN
+F 2 "" H 9000 6050 50  0001 C CNN
+F 3 "" H 9000 6050 50  0001 C CNN
+	1    9000 6050
+	0    1    -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DF51F7A
+P 9750 1650
+AR Path="/5DF51F7A" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DF51F7A" Ref="#GND0117"  Part="1" 
+F 0 "#GND0117" H 9750 1650 50  0001 C CNN
+F 1 "GND" H 9650 1550 59  0000 L BNN
+F 2 "" H 9750 1650 50  0001 C CNN
+F 3 "" H 9750 1650 50  0001 C CNN
+	1    9750 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFB3FF9
+P 9750 2600
+AR Path="/5DFB3FF9" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFB3FF9" Ref="#GND0118"  Part="1" 
+F 0 "#GND0118" H 9750 2600 50  0001 C CNN
+F 1 "GND" H 9650 2500 59  0000 L BNN
+F 2 "" H 9750 2600 50  0001 C CNN
+F 3 "" H 9750 2600 50  0001 C CNN
+	1    9750 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFB7560
+P 10300 5300
+AR Path="/5DFB7560" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFB7560" Ref="#GND0119"  Part="1" 
+F 0 "#GND0119" H 10300 5300 50  0001 C CNN
+F 1 "GND" H 10200 5200 59  0000 L BNN
+F 2 "" H 10300 5300 50  0001 C CNN
+F 3 "" H 10300 5300 50  0001 C CNN
+	1    10300 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 5DFB914F
+P 10300 6350
+AR Path="/5DFB914F" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6476/5DFB914F" Ref="#GND0120"  Part="1" 
+F 0 "#GND0120" H 10300 6350 50  0001 C CNN
+F 1 "GND" H 10200 6250 59  0000 L BNN
+F 2 "" H 10300 6350 50  0001 C CNN
+F 3 "" H 10300 6350 50  0001 C CNN
+	1    10300 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E304A24
+P 1650 3950
+AR Path="/5E304A24" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E304A24" Ref="R59"  Part="1" 
+F 0 "R59" H 1650 4010 70  0000 C BNN
+F 1 "10k" H 1650 3890 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1650 3950 50  0001 C CNN
+F 3 "" H 1650 3950 50  0001 C CNN
+	1    1650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E304A2A
+P 1850 3750
+AR Path="/5E304A2A" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E304A2A" Ref="R56"  Part="1" 
+F 0 "R56" H 1850 3810 70  0000 C BNN
+F 1 "4.7k" H 1850 3690 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1850 3750 50  0001 C CNN
+F 3 "" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 352D39F6
+P 2000 1900
+AR Path="/352D39F6" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/352D39F6" Ref="R25"  Part="1" 
+F 0 "R25" H 2000 1960 70  0000 C BNN
+F 1 "10k" H 2000 1840 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2000 1900 50  0001 C CNN
+F 3 "" H 2000 1900 50  0001 C CNN
+	1    2000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E304A18
+P 2350 3850
+AR Path="/5E304A18" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E304A18" Ref="R58"  Part="1" 
+F 0 "R58" H 2350 3910 70  0000 C BNN
+F 1 "100k" H 2350 3790 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 3850 50  0001 C CNN
+F 3 "" H 2350 3850 50  0001 C CNN
+	1    2350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E331C8F
+P 5200 3500
+AR Path="/5E331C8F" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E331C8F" Ref="R57"  Part="1" 
+F 0 "R57" V 5139 3432 70  0000 R CNN
+F 1 "10k" V 5260 3432 70  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 3500 50  0001 C CNN
+F 3 "" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 710310B2
+P 6000 1500
+AR Path="/710310B2" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/710310B2" Ref="R27"  Part="1" 
+F 0 "R27" H 6000 1560 70  0000 C BNN
+F 1 "10k" H 6000 1440 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 1500 50  0001 C CNN
+F 3 "" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 593AF3FC
+P 6000 2450
+AR Path="/593AF3FC" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/593AF3FC" Ref="R28"  Part="1" 
+F 0 "R28" H 6000 2510 70  0000 C BNN
+F 1 "10k" H 6000 2390 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 2450 50  0001 C CNN
+F 3 "" H 6000 2450 50  0001 C CNN
+	1    6000 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 7E6356E8
+P 6200 1300
+AR Path="/7E6356E8" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/7E6356E8" Ref="R32"  Part="1" 
+F 0 "R32" H 6200 1360 70  0000 C BNN
+F 1 "4.7k" H 6200 1240 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6200 1300 50  0001 C CNN
+F 3 "" H 6200 1300 50  0001 C CNN
+	1    6200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 1C775628
+P 6200 2250
+AR Path="/1C775628" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/1C775628" Ref="R33"  Part="1" 
+F 0 "R33" H 6200 2310 70  0000 C BNN
+F 1 "4.7k" H 6200 2190 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6200 2250 50  0001 C CNN
+F 3 "" H 6200 2250 50  0001 C CNN
+	1    6200 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 94142453
+P 6700 1400
+AR Path="/94142453" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/94142453" Ref="R37"  Part="1" 
+F 0 "R37" H 6700 1460 70  0000 C BNN
+F 1 "100k" H 6700 1340 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 1400 50  0001 C CNN
+F 3 "" H 6700 1400 50  0001 C CNN
+	1    6700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 ABC3816A
+P 6700 2350
+AR Path="/ABC3816A" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/ABC3816A" Ref="R38"  Part="1" 
+F 0 "R38" H 6700 2410 70  0000 C BNN
+F 1 "100k" H 6700 2290 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 2350 50  0001 C CNN
+F 3 "" H 6700 2350 50  0001 C CNN
+	1    6700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5EB54C9D
+P 8500 1200
+AR Path="/5EB54C9D" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5EB54C9D" Ref="R74"  Part="1" 
+F 0 "R74" H 8500 1540 70  0000 C CNN
+F 1 "0" H 8500 1419 70  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 1200 50  0001 C CNN
+F 3 "" H 8500 1200 50  0001 C CNN
+F 4 "DNI" H 8500 1313 50  0000 C CNN "DNI"
+	1    8500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5EB503A2
+P 8500 2150
+AR Path="/5EB503A2" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5EB503A2" Ref="R75"  Part="1" 
+F 0 "R75" H 8500 2490 70  0000 C CNN
+F 1 "0" H 8500 2369 70  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 2150 50  0001 C CNN
+F 3 "" H 8500 2150 50  0001 C CNN
+F 4 "DNI" H 8500 2263 50  0000 C CNN "DNI"
+	1    8500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E23C659
+P 8750 4850
+AR Path="/5E23C659" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E23C659" Ref="R46"  Part="1" 
+F 0 "R46" H 8750 4910 70  0000 C BNN
+F 1 "0" H 8750 4790 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 4850 50  0001 C CNN
+F 3 "" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:RESISTOR0603 R?
+U 1 1 5E2466CE
+P 8750 5900
+AR Path="/5E2466CE" Ref="R?"  Part="1" 
+AR Path="/5CEC6476/5E2466CE" Ref="R47"  Part="1" 
+F 0 "R47" H 8750 5960 70  0000 C BNN
+F 1 "0" H 8750 5840 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 5900 50  0001 C CNN
+F 3 "" H 8750 5900 50  0001 C CNN
+	1    8750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:DFLS130L D?
+U 1 1 2B50BE9F
+P 2300 1400
+AR Path="/2B50BE9F" Ref="D?"  Part="1" 
+AR Path="/5CEC6476/2B50BE9F" Ref="D4"  Part="1" 
+F 0 "D4" V 2400 1500 59  0000 L BNN
+F 1 "SBR2A40P1Q-7" V 2300 1500 59  0000 L BNN
+F 2 "mainboard:PWRDI-123" H 2300 1400 50  0001 C CNN
+F 3 "" H 2300 1400 50  0001 C CNN
+	1    2300 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mainboard:BC846 Q?
+U 1 1 78905133
+P 2200 1700
+AR Path="/78905133" Ref="Q?"  Part="1" 
+AR Path="/5CEC6476/78905133" Ref="Q2"  Part="1" 
+F 0 "Q2" H 2300 1800 59  0000 L BNN
+F 1 "MMBT2222ALT1G" H 2300 1700 59  0000 L BNN
+F 2 "mainboard:SOT23" H 2200 1700 50  0001 C CNN
+F 3 "" H 2200 1700 50  0001 C CNN
+F 4 "S8050" H 2200 1700 50  0001 C CNN "Proto"
+F 5 "MMBT2222ALT1G" H 2200 1700 50  0001 C CNN "Flight"
+	1    2200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:IRLML2803TRPBF Q?
+U 1 1 5E304A30
+P 2150 4050
+AR Path="/5E304A30" Ref="Q?"  Part="1" 
+AR Path="/5CEC6476/5E304A30" Ref="Q3"  Part="1" 
+F 0 "Q3" V 2300 3800 59  0000 L TNN
+F 1 "IRLML2803" V 2400 3800 59  0000 L TNN
+F 2 "mainboard:SOT-23" H 2150 4050 50  0001 C CNN
+F 3 "" H 2150 4050 50  0001 C CNN
+	1    2150 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:IRLML2803TRPBF Q?
+U 1 1 F75D19B8
+P 6500 1600
+AR Path="/F75D19B8" Ref="Q?"  Part="1" 
+AR Path="/5CEC6476/F75D19B8" Ref="Q4"  Part="1" 
+F 0 "Q4" V 6650 1450 59  0000 L TNN
+F 1 "IRLML2803" V 6750 1450 59  0000 L TNN
+F 2 "mainboard:SOT-23" H 6500 1600 50  0001 C CNN
+F 3 "" H 6500 1600 50  0001 C CNN
+F 4 "IRLML2803" V 6500 1600 50  0001 C CNN "Proto"
+F 5 "IRLML2803" V 6500 1600 50  0001 C CNN "Flight"
+	1    6500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L mainboard:IRLML2803TRPBF Q?
+U 1 1 79442EA3
+P 6500 2550
+AR Path="/79442EA3" Ref="Q?"  Part="1" 
+AR Path="/5CEC6476/79442EA3" Ref="Q5"  Part="1" 
+F 0 "Q5" V 6650 2300 59  0000 L TNN
+F 1 "IRLML2803" V 6750 2300 59  0000 L TNN
+F 2 "mainboard:SOT-23" H 6500 2550 50  0001 C CNN
+F 3 "" H 6500 2550 50  0001 C CNN
+	1    6500 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J7
+U 1 1 5E304A53
+P 4450 3500
+F 0 "J7" H 4450 4087 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 4450 3981 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 4500 2800 60  0001 C CNN
+F 3 "" H 4600 3600 60  0000 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J15
+U 1 1 5DF62BE1
+P 6350 5050
+F 0 "J15" H 6350 5637 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 6350 5531 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 6400 4350 60  0001 C CNN
+F 3 "" H 6500 5150 60  0000 C CNN
+	1    6350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J14
+U 1 1 5DF6301E
+P 6350 6150
+F 0 "J14" H 6350 6737 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 6350 6631 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 6400 5450 60  0001 C CNN
+F 3 "" H 6500 6250 60  0000 C CNN
+	1    6350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J16
+U 1 1 5DF5E105
+P 9000 1500
+F 0 "J16" H 9000 2087 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 9000 1981 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 9050 800 60  0001 C CNN
+F 3 "" H 9150 1600 60  0000 C CNN
+	1    9000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J17
+U 1 1 5DF626CE
+P 9000 2450
+F 0 "J17" H 9000 3037 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 9000 2931 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 9050 1750 60  0001 C CNN
+F 3 "" H 9150 2550 60  0000 C CNN
+	1    9000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J18
+U 1 1 5DF621FE
+P 9550 5150
+F 0 "J18" H 9550 5737 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 9550 5631 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 9600 4450 60  0001 C CNN
+F 3 "" H 9700 5250 60  0000 C CNN
+	1    9550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:FH12-8S-1SV54 J19
+U 1 1 5DF61754
+P 9550 6200
+F 0 "J19" H 9550 6787 60  0000 C CNN
+F 1 "FH12-8S-1SV54" H 9550 6681 60  0000 C CNN
+F 2 "custom-footprints:FH12-8S-1SV" H 9600 5500 60  0001 C CNN
+F 3 "" H 9700 6300 60  0000 C CNN
+	1    9550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mainboard:PE014005 U?
+U 1 1 F0D9879E
+P 3200 1300
+AR Path="/F0D9879E" Ref="U?"  Part="1" 
+AR Path="/5CEC6476/F0D9879E" Ref="U16"  Part="1" 
+F 0 "U16" H 3114 1659 69  0000 L BNN
+F 1 "PE014006" H 3089 1559 69  0000 L BNN
+F 2 "mainboard:RELAY5-PE_CO" H 3200 1300 50  0001 C CNN
+F 3 "" H 3200 1300 50  0001 C CNN
+F 4 "JE-109D GOODSKY" H 3200 1300 50  0001 C CNN "Proto"
+F 5 " PE014006 TE" H 3200 1300 50  0001 C CNN "Flight"
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:NDS8434 U?
+U 1 1 5E304A3B
+P 3150 3950
+AR Path="/5CEC5A72/5E304A3B" Ref="U?"  Part="1" 
+AR Path="/5CEC6476/5E304A3B" Ref="U22"  Part="1" 
+F 0 "U22" H 3150 3950 50  0001 L BNN
+F 1 "NDS8434" H 3150 3950 50  0001 L BNN
+F 2 "custom-footprints:NDS8434" H 3150 3950 50  0001 L BNN
+F 3 "" H 3150 3950 50  0001 L BNN
+F 4 "ON Semiconductor" H 3150 3950 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 3150 3950 50  0001 L BNN "Field5"
+F 6 "None" H 3150 3950 50  0001 L BNN "Field6"
+F 7 "NDS8434" H 3150 3950 50  0001 L BNN "Field7"
+F 8 "SO-8 ON Semiconductor" H 3150 3950 50  0001 L BNN "Field8"
+	1    3150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:NDS8434 U?
+U 1 1 5CF3E857
+P 7500 1500
+AR Path="/5CEC5A72/5CF3E857" Ref="U?"  Part="1" 
+AR Path="/5CEC6476/5CF3E857" Ref="U18"  Part="1" 
+F 0 "U18" H 7500 1500 50  0001 L BNN
+F 1 "NDS8434" H 7500 1500 50  0001 L BNN
+F 2 "custom-footprints:NDS8434" H 7500 1500 50  0001 L BNN
+F 3 "" H 7500 1500 50  0001 L BNN
+F 4 "DMP2022LSS-13" H 7500 1500 50  0001 L BNN "Proto"
+F 5 "NDS8434" H 7500 1500 50  0001 C CNN "Flight"
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:NDS8434 U?
+U 1 1 5CF41ED7
+P 7500 2450
+AR Path="/5CEC5A72/5CF41ED7" Ref="U?"  Part="1" 
+AR Path="/5CEC6476/5CF41ED7" Ref="U19"  Part="1" 
+F 0 "U19" H 7500 2450 50  0001 L BNN
+F 1 "NDS8434" H 7500 2450 50  0001 L BNN
+F 2 "custom-footprints:NDS8434" H 7500 2450 50  0001 L BNN
+F 3 "" H 7500 2450 50  0001 L BNN
+F 4 "ON Semiconductor" H 7500 2450 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 7500 2450 50  0001 L BNN "Field5"
+F 6 "None" H 7500 2450 50  0001 L BNN "Field6"
+F 7 "NDS8434" H 7500 2450 50  0001 L BNN "Field7"
+F 8 "SO-8 ON Semiconductor" H 7500 2450 50  0001 L BNN "Field8"
+	1    7500 2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
