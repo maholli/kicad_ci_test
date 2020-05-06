@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SAM32"
 Date "2019-08-21"
-Rev "2.44"
+Rev "2.4"
 Comp "MHolliday"
 Comment1 "https://github.com/maholli/SAM32"
 Comment2 ""
