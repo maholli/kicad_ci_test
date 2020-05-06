@@ -61,7 +61,7 @@ outputs:
       - layer: Edge.Cuts
         suffix: Edge_Cuts
 
-  - name: 'excellon_drill'
+  - name: 'excellon_drills'
     comment: "Excellon drill files"
     type: excellon
     dir: Gerbers
