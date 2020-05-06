@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Test"
 Date "2020-05-05"
-Rev "2"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""

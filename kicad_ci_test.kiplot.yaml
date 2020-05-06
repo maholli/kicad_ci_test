@@ -18,15 +18,15 @@ outputs:
     options:
       output: Schematic.pdf
 
-  # - name: 'print_front'
-  #   comment: "Print F.Cu+Dwgs.User"
-  #   type: pdf_pcb_print
-  #   dir: .
-  #   options:
-  #     output_name: PCB_Top.pdf
-  #   layers:
-  #     - layer: B.Cu
-  #     - layer: F.SilkS
+  - name: 'print_front'
+    comment: "Print F.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB_Top.pdf
+    layers:
+      - layer: B.Cu
+      - layer: F.SilkS
 
   - name: 'gerbers'
     comment: "JLCPCB"
