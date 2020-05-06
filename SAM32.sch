@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SAM32"
 Date "2019-08-21"
-Rev "2.4"
+Rev "2.44"
 Comp "MHolliday"
 Comment1 "https://github.com/maholli/SAM32"
 Comment2 ""
@@ -18,261 +18,261 @@ $Comp
 L SAM32:CAP_CERAMIC0805-NOOUTLINE C?
 U 1 1 5BD0AF5C
 P 8900 2950
-AR Path="/5BCFDB7D/5BD0AF5C" Ref="C?"  Part="1" 
-AR Path="/5BD0AF5C" Ref="C4"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF5C" Ref="C?"  Part="1"
+AR Path="/5BD0AF5C" Ref="C4"  Part="1"
 F 0 "C4" H 8750 3050 50  0000 C CNN
 F 1 "10uF" H 8750 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8900 2950 50  0001 C CNN
 F 3 "" H 8900 2950 50  0001 C CNN
 	1    8900 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5BD0AF63
 P 10700 2950
-AR Path="/5BCFDB7D/5BD0AF63" Ref="C?"  Part="1" 
-AR Path="/5BD0AF63" Ref="C5"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF63" Ref="C?"  Part="1"
+AR Path="/5BD0AF63" Ref="C5"  Part="1"
 F 0 "C5" V 10610 2999 50  0000 C CNN
 F 1 "1uF" V 10790 2999 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10700 2950 50  0001 C CNN
 F 3 "" H 10700 2950 50  0001 C CNN
 	1    10700 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD0AF6A
 P 8900 3250
-AR Path="/5BCFDB7D/5BD0AF6A" Ref="#U$?"  Part="1" 
-AR Path="/5BD0AF6A" Ref="#U$012"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF6A" Ref="#U$?"  Part="1"
+AR Path="/5BD0AF6A" Ref="#U$012"  Part="1"
 F 0 "#U$012" H 8900 3250 50  0001 C CNN
 F 1 "GND" H 8800 3150 59  0000 L BNN
 F 2 "" H 8900 3250 50  0001 C CNN
 F 3 "" H 8900 3250 50  0001 C CNN
 	1    8900 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD0AF70
 P 10700 3250
-AR Path="/5BCFDB7D/5BD0AF70" Ref="#U$?"  Part="1" 
-AR Path="/5BD0AF70" Ref="#U$017"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF70" Ref="#U$?"  Part="1"
+AR Path="/5BD0AF70" Ref="#U$017"  Part="1"
 F 0 "#U$017" H 10700 3250 50  0001 C CNN
 F 1 "GND" H 10600 3150 59  0000 L BNN
 F 2 "" H 10700 3250 50  0001 C CNN
 F 3 "" H 10700 3250 50  0001 C CNN
 	1    10700 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0805-NOOUTLINE C?
 U 1 1 5BD0AF76
 P 10400 2950
-AR Path="/5BCFDB7D/5BD0AF76" Ref="C?"  Part="1" 
-AR Path="/5BD0AF76" Ref="C2"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF76" Ref="C?"  Part="1"
+AR Path="/5BD0AF76" Ref="C2"  Part="1"
 F 0 "C2" V 10310 2999 50  0000 C CNN
 F 1 "10uF" V 10490 2999 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10400 2950 50  0001 C CNN
 F 3 "" H 10400 2950 50  0001 C CNN
 	1    10400 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD0AF7D
 P 10400 3250
-AR Path="/5BCFDB7D/5BD0AF7D" Ref="#U$?"  Part="1" 
-AR Path="/5BD0AF7D" Ref="#U$016"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF7D" Ref="#U$?"  Part="1"
+AR Path="/5BD0AF7D" Ref="#U$016"  Part="1"
 F 0 "#U$016" H 10400 3250 50  0001 C CNN
 F 1 "GND" H 10300 3150 59  0000 L BNN
 F 2 "" H 10400 3250 50  0001 C CNN
 F 3 "" H 10400 3250 50  0001 C CNN
 	1    10400 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD0AF83
 P 9500 3250
-AR Path="/5BCFDB7D/5BD0AF83" Ref="#U$?"  Part="1" 
-AR Path="/5BD0AF83" Ref="#U$014"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF83" Ref="#U$?"  Part="1"
+AR Path="/5BD0AF83" Ref="#U$014"  Part="1"
 F 0 "#U$014" H 9500 3250 50  0001 C CNN
 F 1 "GND" H 9400 3150 59  0000 L BNN
 F 2 "" H 9500 3250 50  0001 C CNN
 F 3 "" H 9500 3250 50  0001 C CNN
 	1    9500 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VREG_SOT23-5 U?
 U 1 1 5BD0AF9C
 P 9900 2650
-AR Path="/5BCFDB7D/5BD0AF9C" Ref="U?"  Part="1" 
-AR Path="/5BD0AF9C" Ref="U5"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AF9C" Ref="U?"  Part="1"
+AR Path="/5BD0AF9C" Ref="U5"  Part="1"
 F 0 "U5" H 9600 2890 42  0000 L BNN
 F 1 "AP2112K-3.3TRG1" H 9600 2350 42  0000 L BNN
 F 2 "Adafruit Feather M4 Express:SOT23-5" H 9900 2650 50  0001 C CNN
 F 3 "" H 9900 2650 50  0001 C CNN
 	1    9900 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0805-NOOUTLINE C?
 U 1 1 5BD0AFB6
 P 5250 1700
-AR Path="/5BCFDB7D/5BD0AFB6" Ref="C?"  Part="1" 
-AR Path="/5BD0AFB6" Ref="C6"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AFB6" Ref="C?"  Part="1"
+AR Path="/5BD0AFB6" Ref="C6"  Part="1"
 F 0 "C6" H 5200 1850 50  0000 C CNN
 F 1 "10uF" H 5200 1650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 1700 50  0001 C CNN
 F 3 "" H 5250 1700 50  0001 C CNN
 	1    5250 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5BD0AFC9
 P 5050 1700
-AR Path="/5BCFDB7D/5BD0AFC9" Ref="C?"  Part="1" 
-AR Path="/5BD0AFC9" Ref="C10"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AFC9" Ref="C?"  Part="1"
+AR Path="/5BD0AFC9" Ref="C10"  Part="1"
 F 0 "C10" H 5000 1850 50  0000 C CNN
 F 1 "1uF" H 5000 1650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5050 1700 50  0001 C CNN
 F 3 "" H 5050 1700 50  0001 C CNN
 	1    5050 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5BD0AFD0
 P 4850 1700
-AR Path="/5BCFDB7D/5BD0AFD0" Ref="C?"  Part="1" 
-AR Path="/5BD0AFD0" Ref="C3"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AFD0" Ref="C?"  Part="1"
+AR Path="/5BD0AFD0" Ref="C3"  Part="1"
 F 0 "C3" H 4800 1850 50  0000 C CNN
 F 1 "1uF" H 4800 1650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4850 1700 50  0001 C CNN
 F 3 "" H 4850 1700 50  0001 C CNN
 	1    4850 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VBAT #U$?
 U 1 1 5BD0AFDD
 P 9450 950
-AR Path="/5BCFDB7D/5BD0AFDD" Ref="#U$?"  Part="1" 
-AR Path="/5BD0AFDD" Ref="#U$013"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AFDD" Ref="#U$?"  Part="1"
+AR Path="/5BD0AFDD" Ref="#U$013"  Part="1"
 F 0 "#U$013" H 9450 950 50  0001 C CNN
 F 1 "VBAT" H 9390 990 42  0000 L BNN
 F 2 "" H 9450 950 50  0001 C CNN
 F 3 "" H 9450 950 50  0001 C CNN
-	1    9450 950 
-	1    0    0    -1  
+	1    9450 950
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:MOSFET-P Q?
 U 1 1 5BD0AFEA
 P 9450 2250
-AR Path="/5BCFDB7D/5BD0AFEA" Ref="Q?"  Part="1" 
-AR Path="/5BD0AFEA" Ref="Q3"  Part="1" 
+AR Path="/5BCFDB7D/5BD0AFEA" Ref="Q?"  Part="1"
+AR Path="/5BD0AFEA" Ref="Q3"  Part="1"
 F 0 "Q3" H 9200 2200 42  0000 L BNN
 F 1 "DMG341" H 9150 2050 42  0000 L BNN
 F 2 "Adafruit Feather M4 Express:SOT23-R" H 9450 2250 50  0001 C CNN
 F 3 "" H 9450 2250 50  0001 C CNN
 	1    9450 2250
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
 L SAM32:MCP73831_2 U?
 U 1 1 5BD0C00D
 P 8750 1400
-AR Path="/5BCFDB7D/5BD0C00D" Ref="U?"  Part="1" 
-AR Path="/5BD0C00D" Ref="U4"  Part="1" 
+AR Path="/5BCFDB7D/5BD0C00D" Ref="U?"  Part="1"
+AR Path="/5BD0C00D" Ref="U4"  Part="1"
 F 0 "U4" H 8700 1400 42  0000 L BNN
 F 1 "MCP73831T-2ACI/OT" H 8400 900 42  0000 L BNN
 F 2 "Adafruit Feather M4 Express:SOT23-5" H 8750 1400 50  0001 C CNN
 F 3 "" H 8750 1400 50  0001 C CNN
 	1    8750 1400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:LED0805_NOOUTLINE CHG?
 U 1 1 5BD0C014
 P 8150 2000
-AR Path="/5BCFDB7D/5BD0C014" Ref="CHG?"  Part="1" 
-AR Path="/5BD0C014" Ref="CHRG1"  Part="1" 
+AR Path="/5BCFDB7D/5BD0C014" Ref="CHG?"  Part="1"
+AR Path="/5BD0C014" Ref="CHRG1"  Part="1"
 F 0 "CHRG1" V 8150 2250 42  0000 C CNN
 F 1 "ORANGE LED" V 8050 2200 42  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 8150 2000 50  0001 C CNN
 F 3 "" H 8150 2000 50  0001 C CNN
 	1    8150 2000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0805-NOOUTLINE C?
 U 1 1 5BD0C022
 P 9700 1500
-AR Path="/5BCFDB7D/5BD0C022" Ref="C?"  Part="1" 
-AR Path="/5BD0C022" Ref="C7"  Part="1" 
+AR Path="/5BCFDB7D/5BD0C022" Ref="C?"  Part="1"
+AR Path="/5BD0C022" Ref="C7"  Part="1"
 F 0 "C7" H 9550 1550 50  0000 C CNN
 F 1 "10uF" H 9600 1450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9700 1500 50  0001 C CNN
 F 3 "" H 9700 1500 50  0001 C CNN
 	1    9700 1500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VBAT #U$?
 U 1 1 5BD0C048
 P 1700 2450
-AR Path="/5BCFDB7D/5BD0C048" Ref="#U$?"  Part="1" 
-AR Path="/5BD0C048" Ref="#U$04"  Part="1" 
+AR Path="/5BCFDB7D/5BD0C048" Ref="#U$?"  Part="1"
+AR Path="/5BD0C048" Ref="#U$04"  Part="1"
 F 0 "#U$04" H 1700 2450 50  0001 C CNN
 F 1 "VBAT" H 1600 2450 42  0000 L BNN
 F 2 "" H 1700 2450 50  0001 C CNN
 F 3 "" H 1700 2450 50  0001 C CNN
 	1    1700 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0805-NOOUTLINE C?
 U 1 1 5BD13B57
 P 4850 2000
-AR Path="/5BCFDB7D/5BD13B57" Ref="C?"  Part="1" 
-AR Path="/5BD13B57" Ref="C12"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B57" Ref="C?"  Part="1"
+AR Path="/5BD13B57" Ref="C12"  Part="1"
 F 0 "C12" H 4950 1950 50  0000 C CNN
 F 1 "10uF" H 4950 2150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4850 2000 50  0001 C CNN
 F 3 "" H 4850 2000 50  0001 C CNN
 	1    4850 2000
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
 L SAM32:INDUCTOR L?
 U 1 1 5BD13B64
 P 4500 2100
-AR Path="/5BCFDB7D/5BD13B64" Ref="L?"  Part="1" 
-AR Path="/5BD13B64" Ref="L1"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B64" Ref="L?"  Part="1"
+AR Path="/5BD13B64" Ref="L1"  Part="1"
 F 0 "L1" H 4500 2200 42  0000 C CNN
 F 1 "10uH" H 4500 2040 42  0000 C CNN
 F 2 "Inductor_SMD:L_0806_2016Metric" H 4500 2100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vls201610hbx-1_en.pdf" H 4500 2100 50  0001 C CNN
 	1    4500 2100
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5BD13B6B
 P 5050 2100
-AR Path="/5BCFDB7D/5BD13B6B" Ref="C?"  Part="1" 
-AR Path="/5BD13B6B" Ref="C11"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B6B" Ref="C?"  Part="1"
+AR Path="/5BD13B6B" Ref="C11"  Part="1"
 F 0 "C11" H 4950 2250 50  0000 C CNN
 F 1 "1uF" H 4950 2050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5050 2100 50  0001 C CNN
 F 3 "" H 5050 2100 50  0001 C CNN
 	1    5050 2100
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #GND03
@@ -283,7 +283,7 @@ F 1 "GND" H 4450 7500 59  0000 L BNN
 F 2 "" H 4550 7600 50  0001 C CNN
 F 3 "" H 4550 7600 50  0001 C CNN
 	1    4550 7600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V07
@@ -294,7 +294,7 @@ F 1 "+3V3" H 4450 5800 59  0000 L BNN
 F 2 "" H 4550 5750 50  0001 C CNN
 F 3 "" H 4550 5750 50  0001 C CNN
 	1    4550 5750
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:503182-1853-503182-1853 J3
@@ -310,150 +310,150 @@ F 6 "None" H 3950 6700 50  0001 L BNN "Field6"
 F 7 "None" H 3950 6700 50  0001 L BNN "Field7"
 F 8 "Unavailable" H 3950 6700 50  0001 L BNN "Field8"
 	1    3950 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5BD13B45
 P 4400 950
-AR Path="/5BCFDB7D/5BD13B45" Ref="#+3V?"  Part="1" 
-AR Path="/5BD13B45" Ref="#+3V04"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B45" Ref="#+3V?"  Part="1"
+AR Path="/5BD13B45" Ref="#+3V04"  Part="1"
 F 0 "#+3V04" H 4400 950 50  0001 C CNN
 F 1 "+3V3" H 4300 1000 59  0000 L BNN
 F 2 "" H 4400 950 50  0001 C CNN
 F 3 "" H 4400 950 50  0001 C CNN
-	1    4400 950 
-	-1   0    0    -1  
+	1    4400 950
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5C1A91F5
 P 2550 950
-AR Path="/5BCFDB7D/5C1A91F5" Ref="#+3V?"  Part="1" 
-AR Path="/5C1A91F5" Ref="#+3V03"  Part="1" 
+AR Path="/5BCFDB7D/5C1A91F5" Ref="#+3V?"  Part="1"
+AR Path="/5C1A91F5" Ref="#+3V03"  Part="1"
 F 0 "#+3V03" H 2550 950 50  0001 C CNN
 F 1 "+3V3" H 2400 1000 59  0000 L BNN
 F 2 "" H 2550 950 50  0001 C CNN
 F 3 "" H 2550 950 50  0001 C CNN
-	1    2550 950 
-	1    0    0    -1  
+	1    2550 950
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:SWITCH_TACT_SMT4.6X2.8 SW?
 U 1 1 5BD0BFF9
 P 1200 1500
-AR Path="/5BCFDB7D/5BD0BFF9" Ref="SW?"  Part="1" 
-AR Path="/5BD0BFF9" Ref="SW1"  Part="1" 
+AR Path="/5BCFDB7D/5BD0BFF9" Ref="SW?"  Part="1"
+AR Path="/5BD0BFF9" Ref="SW1"  Part="1"
 F 0 "SW1" H 1150 1400 42  0000 L BNN
 F 1 "KMR231NG LFS" H 900 1300 42  0000 L BNN
 F 2 "Adafruit Feather M4 Express:BTN_KMR2_4.6X2.8" H 1200 1500 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 1200 1500 50  0001 C CNN
 	1    1200 1500
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C2A18C3
 P 4350 5350
-AR Path="/5BCFDB7D/5C2A18C3" Ref="#U$?"  Part="1" 
-AR Path="/5C2A18C3" Ref="#U$07"  Part="1" 
+AR Path="/5BCFDB7D/5C2A18C3" Ref="#U$?"  Part="1"
+AR Path="/5C2A18C3" Ref="#U$07"  Part="1"
 F 0 "#U$07" H 4350 5350 50  0001 C CNN
 F 1 "GND" H 4250 5250 59  0000 L BNN
 F 2 "" H 4350 5350 50  0001 C CNN
 F 3 "" H 4350 5350 50  0001 C CNN
 	1    4350 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5C3CBE48
 P 1100 2300
-AR Path="/5BCFDB7D/5C3CBE48" Ref="C?"  Part="1" 
-AR Path="/5C3CBE48" Ref="C13"  Part="1" 
+AR Path="/5BCFDB7D/5C3CBE48" Ref="C?"  Part="1"
+AR Path="/5C3CBE48" Ref="C13"  Part="1"
 F 0 "C13" V 1010 2349 50  0000 C CNN
 F 1 "22pF" V 950 2350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1100 2300 50  0001 C CNN
 F 3 "" H 1100 2300 50  0001 C CNN
 	1    1100 2300
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5C3CBE4F
 P 1100 2600
-AR Path="/5BCFDB7D/5C3CBE4F" Ref="C?"  Part="1" 
-AR Path="/5C3CBE4F" Ref="C14"  Part="1" 
+AR Path="/5BCFDB7D/5C3CBE4F" Ref="C?"  Part="1"
+AR Path="/5C3CBE4F" Ref="C14"  Part="1"
 F 0 "C14" V 1010 2649 50  0000 C CNN
 F 1 "22pF" V 950 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1100 2600 50  0001 C CNN
 F 3 "" H 1100 2600 50  0001 C CNN
 	1    1100 2600
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C3CBE5C
 P 1000 3000
-AR Path="/5BCFDB7D/5C3CBE5C" Ref="#U$?"  Part="1" 
-AR Path="/5C3CBE5C" Ref="#U$03"  Part="1" 
+AR Path="/5BCFDB7D/5C3CBE5C" Ref="#U$?"  Part="1"
+AR Path="/5C3CBE5C" Ref="#U$03"  Part="1"
 F 0 "#U$03" H 1000 3000 50  0001 C CNN
 F 1 "GND" H 900 2900 59  0000 L BNN
 F 2 "" H 1000 3000 50  0001 C CNN
 F 3 "" H 1000 3000 50  0001 C CNN
 	1    1000 3000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5CCC6F9B
 P 10700 950
-AR Path="/5BCFDB7D/5CCC6F9B" Ref="#+3V?"  Part="1" 
-AR Path="/5CCC6F9B" Ref="#+3V06"  Part="1" 
+AR Path="/5BCFDB7D/5CCC6F9B" Ref="#+3V?"  Part="1"
+AR Path="/5CCC6F9B" Ref="#+3V06"  Part="1"
 F 0 "#+3V06" H 10700 950 50  0001 C CNN
 F 1 "+3V3" H 10550 1000 59  0000 L BNN
 F 2 "" H 10700 950 50  0001 C CNN
 F 3 "" H 10700 950 50  0001 C CNN
-	1    10700 950 
-	-1   0    0    -1  
+	1    10700 950
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5CDFD672
 P 5250 2300
-AR Path="/5BCFDB7D/5CDFD672" Ref="#U$?"  Part="1" 
-AR Path="/5CDFD672" Ref="#U$08"  Part="1" 
+AR Path="/5BCFDB7D/5CDFD672" Ref="#U$?"  Part="1"
+AR Path="/5CDFD672" Ref="#U$08"  Part="1"
 F 0 "#U$08" H 5250 2300 50  0001 C CNN
 F 1 "GND" H 5150 2200 59  0000 L BNN
 F 2 "" H 5250 2300 50  0001 C CNN
 F 3 "" H 5250 2300 50  0001 C CNN
 	1    5250 2300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD0C029
 P 9700 1700
-AR Path="/5BCFDB7D/5BD0C029" Ref="#U$?"  Part="1" 
-AR Path="/5BD0C029" Ref="#U$015"  Part="1" 
+AR Path="/5BCFDB7D/5BD0C029" Ref="#U$?"  Part="1"
+AR Path="/5BD0C029" Ref="#U$015"  Part="1"
 F 0 "#U$015" H 9700 1700 50  0001 C CNN
 F 1 "GND" H 9600 1600 59  0000 L BNN
 F 2 "" H 9700 1700 50  0001 C CNN
 F 3 "" H 9700 1700 50  0001 C CNN
 	1    9700 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5BDA8860
 P 2350 2500
-AR Path="/5BCFDB7D/5BDA8860" Ref="#+3V?"  Part="1" 
-AR Path="/5BDA8860" Ref="#+3V02"  Part="1" 
+AR Path="/5BCFDB7D/5BDA8860" Ref="#+3V?"  Part="1"
+AR Path="/5BDA8860" Ref="#+3V02"  Part="1"
 F 0 "#+3V02" H 2350 2500 50  0001 C CNN
 F 1 "+3V3" H 2200 2500 59  0000 L BNN
 F 2 "" H 2350 2500 50  0001 C CNN
 F 3 "" H 2350 2500 50  0001 C CNN
 	1    2350 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R3
@@ -464,7 +464,7 @@ F 1 "100K" H 1850 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1740 2740 50  0001 C CNN
 F 3 "~" H 1700 2750 50  0001 C CNN
 	1    1700 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R10
@@ -475,7 +475,7 @@ F 1 "10K" H 2750 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2690 1340 50  0001 C CNN
 F 3 "~" H 2650 1350 50  0001 C CNN
 	1    2650 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R7
@@ -486,7 +486,7 @@ F 1 "1K" H 8000 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8190 1640 50  0001 C CNN
 F 3 "~" H 8150 1650 50  0001 C CNN
 	1    8150 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R4
@@ -497,7 +497,7 @@ F 1 "10K" V 9450 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9290 2640 50  0001 C CNN
 F 3 "~" H 9250 2650 50  0001 C CNN
 	1    9250 2650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R_US R6
@@ -508,7 +508,7 @@ F 1 "10K" H 9300 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9390 1540 50  0001 C CNN
 F 3 "~" H 9350 1550 50  0001 C CNN
 	1    9350 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R9
@@ -519,7 +519,7 @@ F 1 "10K" H 2300 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2490 1340 50  0001 C CNN
 F 3 "~" H 2450 1350 50  0001 C CNN
 	1    2450 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R5
@@ -530,7 +530,7 @@ F 1 "100K" V 1650 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1590 2890 50  0001 C CNN
 F 3 "~" H 1550 2900 50  0001 C CNN
 	1    1550 2900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L SAM32:ESP32_WROOM32 U3
@@ -541,59 +541,59 @@ F 1 "ESP32_WROOM32_SKINNY" H 6050 5550 50  0001 C CNN
 F 2 "Adafruit HUZZAH32 ESP32 Feather:WROOM32_SKINNY" H 6050 5550 50  0001 C CNN
 F 3 "" H 6050 5550 50  0001 C CNN
 	1    6050 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5BEDF373
 P 6050 3850
-AR Path="/5BCFDB7D/5BEDF373" Ref="#+3V?"  Part="1" 
-AR Path="/5BEDF373" Ref="#+3V05"  Part="1" 
+AR Path="/5BCFDB7D/5BEDF373" Ref="#+3V?"  Part="1"
+AR Path="/5BEDF373" Ref="#+3V05"  Part="1"
 F 0 "#+3V05" H 6050 3850 50  0001 C CNN
 F 1 "+3V3" H 5950 3900 59  0000 L BNN
 F 2 "" H 6050 3850 50  0001 C CNN
 F 3 "" H 6050 3850 50  0001 C CNN
 	1    6050 3850
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BEDF576
 P 6050 6750
-AR Path="/5BCFDB7D/5BEDF576" Ref="#U$?"  Part="1" 
-AR Path="/5BEDF576" Ref="#U$09"  Part="1" 
+AR Path="/5BCFDB7D/5BEDF576" Ref="#U$?"  Part="1"
+AR Path="/5BEDF576" Ref="#U$09"  Part="1"
 F 0 "#U$09" H 6050 6750 50  0001 C CNN
 F 1 "GND" H 5950 6650 59  0000 L BNN
 F 2 "" H 6050 6750 50  0001 C CNN
 F 3 "" H 6050 6750 50  0001 C CNN
 	1    6050 6750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VBAT #U$?
 U 1 1 5C269BEE
 P 10200 950
-AR Path="/5BCFDB7D/5C269BEE" Ref="#U$?"  Part="1" 
-AR Path="/5C269BEE" Ref="#U$0101"  Part="1" 
+AR Path="/5BCFDB7D/5C269BEE" Ref="#U$?"  Part="1"
+AR Path="/5C269BEE" Ref="#U$0101"  Part="1"
 F 0 "#U$0101" H 10200 950 50  0001 C CNN
 F 1 "VBAT" H 10140 990 42  0000 L BNN
 F 2 "" H 10200 950 50  0001 C CNN
 F 3 "" H 10200 950 50  0001 C CNN
-	1    10200 950 
-	1    0    0    -1  
+	1    10200 950
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C269CFD
 P 10200 1700
-AR Path="/5BCFDB7D/5C269CFD" Ref="#U$?"  Part="1" 
-AR Path="/5C269CFD" Ref="#U$0102"  Part="1" 
+AR Path="/5BCFDB7D/5C269CFD" Ref="#U$?"  Part="1"
+AR Path="/5C269CFD" Ref="#U$0102"  Part="1"
 F 0 "#U$0102" H 10200 1700 50  0001 C CNN
 F 1 "GND" H 10100 1600 59  0000 L BNN
 F 2 "" H 10200 1700 50  0001 C CNN
 F 3 "" H 10200 1700 50  0001 C CNN
 	1    10200 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32-rescue:10118194-0001LF-10118194-0001LF J1
@@ -609,20 +609,20 @@ F 6 "None" H 1150 5050 50  0001 L BNN "Field6"
 F 7 "None" H 1150 5050 50  0001 L BNN "Field7"
 F 8 "Unavailable" H 1150 5050 50  0001 L BNN "Field8"
 	1    1150 5050
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BE0AD46
 P 1000 1900
-AR Path="/5BCFDB7D/5BE0AD46" Ref="#U$?"  Part="1" 
-AR Path="/5BE0AD46" Ref="#U$0103"  Part="1" 
+AR Path="/5BCFDB7D/5BE0AD46" Ref="#U$?"  Part="1"
+AR Path="/5BE0AD46" Ref="#U$0103"  Part="1"
 F 0 "#U$0103" H 1000 1900 50  0001 C CNN
 F 1 "GND" H 900 1800 59  0000 L BNN
 F 2 "" H 1000 1900 50  0001 C CNN
 F 3 "" H 1000 1900 50  0001 C CNN
 	1    1000 1900
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Device:R_US R11
@@ -633,7 +633,7 @@ F 1 "10K" V 5850 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5840 3390 50  0001 C CNN
 F 3 "~" H 5800 3400 50  0001 C CNN
 	1    5800 3400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Device:R_US R12
@@ -644,7 +644,7 @@ F 1 "10K" V 5850 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5840 3490 50  0001 C CNN
 F 3 "~" H 5800 3500 50  0001 C CNN
 	1    5800 3500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L SAM32:ATSAMD51J20A-AU-ATSAMD51J20A-AU U2
@@ -660,20 +660,20 @@ F 6 "None" H 3700 3300 50  0001 L BNN "Field6"
 F 7 "ATSAMD51J20A-AU" H 3700 3300 50  0001 L BNN "Field7"
 F 8 "Unavailable" H 3700 3300 50  0001 L BNN "Field8"
 	1    3700 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5C0E1C57
 P 4650 1700
-AR Path="/5BCFDB7D/5C0E1C57" Ref="C?"  Part="1" 
-AR Path="/5C0E1C57" Ref="C15"  Part="1" 
+AR Path="/5BCFDB7D/5C0E1C57" Ref="C?"  Part="1"
+AR Path="/5C0E1C57" Ref="C15"  Part="1"
 F 0 "C15" H 4600 1850 50  0000 C CNN
 F 1 "0.1uF" H 4600 1650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4650 1700 50  0001 C CNN
 F 3 "" H 4650 1700 50  0001 C CNN
 	1    4650 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VUSB-power #PWR0102
@@ -684,7 +684,7 @@ F 1 "VUSB" H 1665 4923 50  0000 C CNN
 F 2 "" H 1650 4750 50  0001 C CNN
 F 3 "" H 1650 4750 50  0001 C CNN
 	1    1650 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:VUSB-power #PWR0103
@@ -695,7 +695,7 @@ F 1 "VUSB" H 7965 1223 50  0000 C CNN
 F 2 "" H 7950 1050 50  0001 C CNN
 F 3 "" H 7950 1050 50  0001 C CNN
 	1    7950 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:MOUNTINGHOLE2.5 J97
@@ -706,7 +706,7 @@ F 1 "MOUNTINGHOLE2.5" H 5750 7600 50  0001 C CNN
 F 2 "Adafruit HUZZAH32 ESP32 Feather:MOUNTINGHOLE_2.5_PLATED" H 5750 7600 50  0001 C CNN
 F 3 "" H 5750 7600 50  0001 C CNN
 	1    5750 7600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L SAM32:MOUNTINGHOLE2.5 J96
@@ -717,7 +717,7 @@ F 1 "MOUNTINGHOLE2.5" H 5750 7350 50  0001 C CNN
 F 2 "Adafruit HUZZAH32 ESP32 Feather:MOUNTINGHOLE_2.5_PLATED" H 5750 7350 50  0001 C CNN
 F 3 "" H 5750 7350 50  0001 C CNN
 	1    5750 7350
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x17 J7
@@ -729,7 +729,7 @@ F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 9200 5050 50 
 F 3 "~" H 9200 5050 50  0001 C CNN
 F 4 "DNI" H 9150 6100 50  0001 C CNN "DNI"
 	1    9200 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:CON_JST_PH_2PINSH2 J4
@@ -740,33 +740,33 @@ F 1 "B2B-PH-SM4-TB" H 10000 1681 59  0001 C CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 10100 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10100 1400 50  0001 C CNN
 	1    10100 1400
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C1DDB0D
 P 8750 4550
-AR Path="/5BCFDB7D/5C1DDB0D" Ref="#U$?"  Part="1" 
-AR Path="/5C1DDB0D" Ref="#U$0104"  Part="1" 
+AR Path="/5BCFDB7D/5C1DDB0D" Ref="#U$?"  Part="1"
+AR Path="/5C1DDB0D" Ref="#U$0104"  Part="1"
 F 0 "#U$0104" H 8750 4550 50  0001 C CNN
 F 1 "GND" V 8750 4350 59  0000 L BNN
 F 2 "" H 8750 4550 50  0001 C CNN
 F 3 "" H 8750 4550 50  0001 C CNN
 	1    8750 4550
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5C1F12C1
 P 8750 4350
-AR Path="/5BCFDB7D/5C1F12C1" Ref="#+3V?"  Part="1" 
-AR Path="/5C1F12C1" Ref="#+3V0101"  Part="1" 
+AR Path="/5BCFDB7D/5C1F12C1" Ref="#+3V?"  Part="1"
+AR Path="/5C1F12C1" Ref="#+3V0101"  Part="1"
 F 0 "#+3V0101" H 8750 4350 50  0001 C CNN
 F 1 "+3V3" V 8800 4350 59  0000 L BNN
 F 2 "" H 8750 4350 50  0001 C CNN
 F 3 "" H 8750 4350 50  0001 C CNN
 	1    8750 4350
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x14 J2
@@ -777,20 +777,20 @@ F 1 "Conn_01x14" V 10000 4700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 9850 4850 50  0001 C CNN
 F 3 "~" H 9850 4850 50  0001 C CNN
 	1    9850 4850
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C6784F1
 P 8900 5750
-AR Path="/5BCFDB7D/5C6784F1" Ref="#U$?"  Part="1" 
-AR Path="/5C6784F1" Ref="#U$0105"  Part="1" 
+AR Path="/5BCFDB7D/5C6784F1" Ref="#U$?"  Part="1"
+AR Path="/5C6784F1" Ref="#U$0105"  Part="1"
 F 0 "#U$0105" H 8900 5750 50  0001 C CNN
 F 1 "GND" V 8900 5550 59  0000 L BNN
 F 2 "" H 8900 5750 50  0001 C CNN
 F 3 "" H 8900 5750 50  0001 C CNN
 	1    8900 5750
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 $Comp
 L Device:Crystal X1
@@ -802,20 +802,20 @@ F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" H 1400 2450 50  0
 F 3 "https://global.kyocera.com/prdct/electro/product/pdf/st3215sb_e.pdf" H 1400 2450 50  0001 C CNN
 F 4 "32.768" V 1400 2450 39  0000 C CNN "Freq"
 	1    1400 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C043D7B
 P 9350 1800
-AR Path="/5BCFDB7D/5C043D7B" Ref="#U$?"  Part="1" 
-AR Path="/5C043D7B" Ref="#U$0106"  Part="1" 
+AR Path="/5BCFDB7D/5C043D7B" Ref="#U$?"  Part="1"
+AR Path="/5C043D7B" Ref="#U$0106"  Part="1"
 F 0 "#U$0106" H 9350 1800 50  0001 C CNN
 F 1 "GND" H 9250 1700 59  0000 L BNN
 F 2 "" H 9350 1800 50  0001 C CNN
 F 3 "" H 9350 1800 50  0001 C CNN
 	1    9350 1800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED:WS2812B D2
@@ -826,33 +826,33 @@ F 1 "WS2812B" H 1350 3500 50  0000 L CNN
 F 2 "custom-footprints:LED3535" H 1200 3500 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1250 3425 50  0001 L TNN
 	1    1150 3800
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C13A6A2
 P 1150 4200
-AR Path="/5BCFDB7D/5C13A6A2" Ref="#U$?"  Part="1" 
-AR Path="/5C13A6A2" Ref="#U$0107"  Part="1" 
+AR Path="/5BCFDB7D/5C13A6A2" Ref="#U$?"  Part="1"
+AR Path="/5C13A6A2" Ref="#U$0107"  Part="1"
 F 0 "#U$0107" H 1150 4200 50  0001 C CNN
 F 1 "GND" H 1050 4100 59  0000 L BNN
 F 2 "" H 1150 4200 50  0001 C CNN
 F 3 "" H 1150 4200 50  0001 C CNN
 	1    1150 4200
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5C15136C
 P 1150 3400
-AR Path="/5BCFDB7D/5C15136C" Ref="#+3V?"  Part="1" 
-AR Path="/5C15136C" Ref="#+3V0102"  Part="1" 
+AR Path="/5BCFDB7D/5C15136C" Ref="#+3V?"  Part="1"
+AR Path="/5C15136C" Ref="#+3V0102"  Part="1"
 F 0 "#+3V0102" H 1150 3400 50  0001 C CNN
 F 1 "+3V3" H 1000 3450 59  0000 L BNN
 F 2 "" H 1150 3400 50  0001 C CNN
 F 3 "" H 1150 3400 50  0001 C CNN
 	1    1150 3400
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Device:R_US R2
@@ -863,33 +863,33 @@ F 1 "2.2K" H 3050 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2890 5290 50  0001 C CNN
 F 3 "~" H 2850 5300 50  0001 C CNN
 	1    2850 5300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L SAM32:LED0805_NOOUTLINE CHRG?
 U 1 1 5C265087
 P 2650 5450
-AR Path="/5BCFDB7D/5C265087" Ref="CHRG?"  Part="1" 
-AR Path="/5C265087" Ref="GRN1"  Part="1" 
+AR Path="/5BCFDB7D/5C265087" Ref="CHRG?"  Part="1"
+AR Path="/5C265087" Ref="GRN1"  Part="1"
 F 0 "GRN1" H 2450 5600 42  0000 C CNN
 F 1 "GREEN LED" H 2550 5650 42  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2650 5450 50  0001 C CNN
 F 3 "" H 2650 5450 50  0001 C CNN
 	1    2650 5450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5C2675DA
 P 2400 5550
-AR Path="/5BCFDB7D/5C2675DA" Ref="#U$?"  Part="1" 
-AR Path="/5C2675DA" Ref="#U$0108"  Part="1" 
+AR Path="/5BCFDB7D/5C2675DA" Ref="#U$?"  Part="1"
+AR Path="/5C2675DA" Ref="#U$0108"  Part="1"
 F 0 "#U$0108" H 2400 5550 50  0001 C CNN
 F 1 "GND" H 2300 5450 59  0000 L BNN
 F 2 "" H 2400 5550 50  0001 C CNN
 F 3 "" H 2400 5550 50  0001 C CNN
 	1    2400 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R15
@@ -900,33 +900,33 @@ F 1 "10K" H 4750 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4940 4290 50  0001 C CNN
 F 3 "~" H 4900 4300 50  0001 C CNN
 	1    4900 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5C4986BA
 P 4900 4050
-AR Path="/5BCFDB7D/5C4986BA" Ref="#+3V?"  Part="1" 
-AR Path="/5C4986BA" Ref="#+3V0103"  Part="1" 
+AR Path="/5BCFDB7D/5C4986BA" Ref="#+3V?"  Part="1"
+AR Path="/5C4986BA" Ref="#+3V0103"  Part="1"
 F 0 "#+3V0103" H 4900 4050 50  0001 C CNN
 F 1 "+3V3" H 4800 4100 50  0000 L BNN
 F 2 "" H 4900 4050 50  0001 C CNN
 F 3 "" H 4900 4050 50  0001 C CNN
 	1    4900 4050
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:VBAT #U$?
 U 1 1 5C736103
 P 10600 4200
-AR Path="/5BCFDB7D/5C736103" Ref="#U$?"  Part="1" 
-AR Path="/5C736103" Ref="#U$0109"  Part="1" 
+AR Path="/5BCFDB7D/5C736103" Ref="#U$?"  Part="1"
+AR Path="/5C736103" Ref="#U$0109"  Part="1"
 F 0 "#U$0109" H 10600 4200 50  0001 C CNN
 F 1 "VBAT" H 10540 4240 42  0000 L BNN
 F 2 "" H 10600 4200 50  0001 C CNN
 F 3 "" H 10600 4200 50  0001 C CNN
 	1    10600 4200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_US R13
@@ -937,7 +937,7 @@ F 1 "10K" H 10700 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10840 5190 50  0001 C CNN
 F 3 "~" H 10800 5200 50  0001 C CNN
 	1    10800 5200
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Device:R_US R14
@@ -948,33 +948,33 @@ F 1 "10K" H 10750 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10690 5290 50  0001 C CNN
 F 3 "~" H 10650 5300 50  0001 C CNN
 	1    10650 5300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5CC920E4
 P 10800 4950
-AR Path="/5BCFDB7D/5CC920E4" Ref="#+3V?"  Part="1" 
-AR Path="/5CC920E4" Ref="#+3V0104"  Part="1" 
+AR Path="/5BCFDB7D/5CC920E4" Ref="#+3V?"  Part="1"
+AR Path="/5CC920E4" Ref="#+3V0104"  Part="1"
 F 0 "#+3V0104" H 10800 4950 50  0001 C CNN
 F 1 "+3V3" H 10650 5000 59  0000 L BNN
 F 2 "" H 10800 4950 50  0001 C CNN
 F 3 "" H 10800 4950 50  0001 C CNN
 	1    10800 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5CC92D7A
 P 10650 5050
-AR Path="/5BCFDB7D/5CC92D7A" Ref="#+3V?"  Part="1" 
-AR Path="/5CC92D7A" Ref="#+3V0105"  Part="1" 
+AR Path="/5BCFDB7D/5CC92D7A" Ref="#+3V?"  Part="1"
+AR Path="/5CC92D7A" Ref="#+3V0105"  Part="1"
 F 0 "#+3V0105" H 10650 5050 50  0001 C CNN
 F 1 "+3V3" H 10500 5100 59  0000 L BNN
 F 2 "" H 10650 5050 50  0001 C CNN
 F 3 "" H 10650 5050 50  0001 C CNN
 	1    10650 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:D_Schottky D1
@@ -985,20 +985,20 @@ F 1 "RB550V" H 8200 2700 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" H 8200 2550 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
 	1    8200 2550
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5D676595
 P 5700 1300
-AR Path="/5BCFDB7D/5D676595" Ref="#U$?"  Part="1" 
-AR Path="/5D676595" Ref="#U$0110"  Part="1" 
+AR Path="/5BCFDB7D/5D676595" Ref="#U$?"  Part="1"
+AR Path="/5D676595" Ref="#U$0110"  Part="1"
 F 0 "#U$0110" H 5700 1300 50  0001 C CNN
 F 1 "GND" H 5600 1200 59  0000 L BNN
 F 2 "" H 5700 1300 50  0001 C CNN
 F 3 "" H 5700 1300 50  0001 C CNN
 	1    5700 1300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J5
@@ -1009,59 +1009,59 @@ F 1 "Conn_02x12_Odd_Even" H 6700 2226 50  0001 C CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_2x12_P1.27mm_Vertical_SMD" H 6650 1600 50  0001 C CNN
 F 3 "~" H 6650 1600 50  0001 C CNN
 	1    6650 1600
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5DA2EEC8
 P 5700 2000
-AR Path="/5BCFDB7D/5DA2EEC8" Ref="#+3V?"  Part="1" 
-AR Path="/5DA2EEC8" Ref="#+3V0107"  Part="1" 
+AR Path="/5BCFDB7D/5DA2EEC8" Ref="#+3V?"  Part="1"
+AR Path="/5DA2EEC8" Ref="#+3V0107"  Part="1"
 F 0 "#+3V0107" H 5700 2000 50  0001 C CNN
 F 1 "+3V3" H 5600 2050 59  0000 L BNN
 F 2 "" H 5700 2000 50  0001 C CNN
 F 3 "" H 5700 2000 50  0001 C CNN
 	1    5700 2000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5DA5A8AB
 P 5700 2300
-AR Path="/5BCFDB7D/5DA5A8AB" Ref="#U$?"  Part="1" 
-AR Path="/5DA5A8AB" Ref="#U$0111"  Part="1" 
+AR Path="/5BCFDB7D/5DA5A8AB" Ref="#U$?"  Part="1"
+AR Path="/5DA5A8AB" Ref="#U$0111"  Part="1"
 F 0 "#U$0111" H 5700 2300 50  0001 C CNN
 F 1 "GND" H 5600 2200 59  0000 L BNN
 F 2 "" H 5700 2300 50  0001 C CNN
 F 3 "" H 5700 2300 50  0001 C CNN
 	1    5700 2300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5D4B1923
 P 5700 1000
-AR Path="/5BCFDB7D/5D4B1923" Ref="#+3V?"  Part="1" 
-AR Path="/5D4B1923" Ref="#+3V0106"  Part="1" 
+AR Path="/5BCFDB7D/5D4B1923" Ref="#+3V?"  Part="1"
+AR Path="/5D4B1923" Ref="#+3V0106"  Part="1"
 F 0 "#+3V0106" H 5700 1000 50  0001 C CNN
 F 1 "+3V3" H 5600 1050 59  0000 L BNN
 F 2 "" H 5700 1000 50  0001 C CNN
 F 3 "" H 5700 1000 50  0001 C CNN
 	1    5700 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #GND?
 U 1 1 5BD44DCD
 P 1650 5700
-AR Path="/5BD3B1CE/5BD44DCD" Ref="#GND?"  Part="1" 
-AR Path="/5BD44DCD" Ref="#GND01"  Part="1" 
+AR Path="/5BD3B1CE/5BD44DCD" Ref="#GND?"  Part="1"
+AR Path="/5BD44DCD" Ref="#GND01"  Part="1"
 F 0 "#GND01" H 1650 5700 50  0001 C CNN
 F 1 "GND" H 1550 5600 59  0000 L BNN
 F 2 "" H 1650 5700 50  0001 C CNN
 F 3 "" H 1650 5700 50  0001 C CNN
 	1    1650 5700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 74xGxx:74AHC1G125 U1
@@ -1072,33 +1072,33 @@ F 1 "74AHC1G125" H 1350 6250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1600 6500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1600 6500 50  0001 C CNN
 	1    1600 6500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5D9104F4
 P 1650 6100
-AR Path="/5BCFDB7D/5D9104F4" Ref="#+3V?"  Part="1" 
-AR Path="/5D9104F4" Ref="#+3V0108"  Part="1" 
+AR Path="/5BCFDB7D/5D9104F4" Ref="#+3V?"  Part="1"
+AR Path="/5D9104F4" Ref="#+3V0108"  Part="1"
 F 0 "#+3V0108" H 1650 6100 50  0001 C CNN
 F 1 "+3V3" H 1700 6100 59  0000 L BNN
 F 2 "" H 1650 6100 50  0001 C CNN
 F 3 "" H 1650 6100 50  0001 C CNN
 	1    1650 6100
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SAM32:GND #GND?
 U 1 1 5D9560EB
 P 1650 6800
-AR Path="/5BD3B1CE/5D9560EB" Ref="#GND?"  Part="1" 
-AR Path="/5D9560EB" Ref="#GND0101"  Part="1" 
+AR Path="/5BD3B1CE/5D9560EB" Ref="#GND?"  Part="1"
+AR Path="/5D9560EB" Ref="#GND0101"  Part="1"
 F 0 "#GND0101" H 1650 6800 50  0001 C CNN
 F 1 "GND" H 1550 6700 59  0000 L BNN
 F 2 "" H 1650 6800 50  0001 C CNN
 F 3 "" H 1650 6800 50  0001 C CNN
 	1    1650 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP1
@@ -1109,33 +1109,33 @@ F 1 "Bridged Jumper" V 2050 1150 50  0000 L CNN
 F 2 "custom-footprints:Jumper3_Small" H 1950 1800 50  0001 C CNN
 F 3 "~" H 1950 1800 50  0001 C CNN
 	1    1950 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L SAM32:CAP_CERAMIC0603_NO C?
 U 1 1 5BD13B19
 P 2200 1600
-AR Path="/5BCFDB7D/5BD13B19" Ref="C?"  Part="1" 
-AR Path="/5BD13B19" Ref="C9"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B19" Ref="C?"  Part="1"
+AR Path="/5BD13B19" Ref="C9"  Part="1"
 F 0 "C9" H 2300 1600 50  0000 C CNN
 F 1 "1uF" H 2300 1750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 1600 50  0001 C CNN
 F 3 "" H 2200 1600 50  0001 C CNN
 	1    2200 1600
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
 L SAM32:GND #U$?
 U 1 1 5BD13B20
 P 2200 1900
-AR Path="/5BCFDB7D/5BD13B20" Ref="#U$?"  Part="1" 
-AR Path="/5BD13B20" Ref="#U$05"  Part="1" 
+AR Path="/5BCFDB7D/5BD13B20" Ref="#U$?"  Part="1"
+AR Path="/5BD13B20" Ref="#U$05"  Part="1"
 F 0 "#U$05" H 2200 1900 50  0001 C CNN
 F 1 "GND" H 2100 1800 59  0000 L BNN
 F 2 "" H 2200 1900 50  0001 C CNN
 F 3 "" H 2200 1900 50  0001 C CNN
 	1    2200 1900
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial FID1
@@ -1146,7 +1146,7 @@ F 1 "Fiducial" H 6535 7255 50  0001 L CNN
 F 2 "custom-footprints:Fiducial_1mm_Silkscreen" H 6450 7300 50  0001 C CNN
 F 3 "~" H 6450 7300 50  0001 C CNN
 	1    6450 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
@@ -1157,7 +1157,7 @@ F 1 "Fiducial" H 6535 7405 50  0001 L CNN
 F 2 "custom-footprints:Fiducial_1mm_Silkscreen" H 6450 7450 50  0001 C CNN
 F 3 "~" H 6450 7450 50  0001 C CNN
 	1    6450 7450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
@@ -1168,7 +1168,7 @@ F 1 "Fiducial" H 6535 7555 50  0001 L CNN
 F 2 "custom-footprints:Fiducial_1mm_Silkscreen" H 6450 7600 50  0001 C CNN
 F 3 "~" H 6450 7600 50  0001 C CNN
 	1    6450 7600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 10700 3050 0    10   ~ 2
 GND
@@ -2181,7 +2181,7 @@ F 1 "10K" H 2900 6600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2840 6640 50  0001 C CNN
 F 3 "~" H 2800 6650 50  0001 C CNN
 	1    2800 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 2800 6800
 Wire Wire Line
@@ -2190,13 +2190,13 @@ $Comp
 L SAM32:+3V3 #+3V?
 U 1 1 5DCFA97C
 P 2800 6400
-AR Path="/5BCFDB7D/5DCFA97C" Ref="#+3V?"  Part="1" 
-AR Path="/5DCFA97C" Ref="#+3V0109"  Part="1" 
+AR Path="/5BCFDB7D/5DCFA97C" Ref="#+3V?"  Part="1"
+AR Path="/5DCFA97C" Ref="#+3V0109"  Part="1"
 F 0 "#+3V0109" H 2800 6400 50  0001 C CNN
 F 1 "+3V3" H 2850 6400 59  0000 L BNN
 F 2 "" H 2800 6400 50  0001 C CNN
 F 3 "" H 2800 6400 50  0001 C CNN
 	1    2800 6400
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $EndSCHEMATC
